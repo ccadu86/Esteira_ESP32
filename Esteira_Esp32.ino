@@ -3,15 +3,15 @@
 #include <ArduinoJson.h>
 #include <PubSubClient.h>
 
-const char* WIFI_SSID = "esp";
-const char* WIFI_PASSWORD = "teste32esp";
+const char* WIFI_SSID = "";
+const char* WIFI_PASSWORD = "";
 ///////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////
 const char* MQTT_SERVER = "broker.app.wnology.io";
-const char* MQTT_ACCESS_KEY = "f1968bee-efc2-422b-8cd6-63151fd233bd";
-const char* MQTT_ACCESS_SECRET = "b9695b32db05bdfe3cfe043f2d0e304d956e4896a5f644979f2e6bd3830b57e0";
-const char* DEVICE_ID = "649db6f9789ac314c6d16399";
-const char* MQTT_TOPIC = "wnology/649db6f9789ac314c6d16399/state";
+const char* MQTT_ACCESS_KEY = "";
+const char* MQTT_ACCESS_SECRET = "";
+const char* DEVICE_ID = "";
+const char* MQTT_TOPIC = "wnology//state";
 const int MQTT_PORT = 1883;
 const int PUBLISH_INTERVAL = 300000;
 
